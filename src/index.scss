@@ -21,7 +21,10 @@ body {
 #root {
     width: 100dvw;
     height: 100dvh;
-    background: #ffffff;
+    background: #000;
     mask: url(#crt);
     overflow: scroll;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
